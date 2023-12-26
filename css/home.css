@@ -1,0 +1,33 @@
+body {
+  background-color: #24353f;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+#my-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+#logout {
+  cursor: pointer;
+  margin: auto;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: #24353f;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#signin-for-hover {
+  transition: 0.3s;
+}
+
+#signin-for-hover:hover {
+  color: #3da3df;
+}
+
+@media (min-width: 768px) {
+  .row {
+    width: 50%;
+  }
+}
